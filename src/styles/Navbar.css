@@ -1,0 +1,9 @@
+.active {
+  color: #f39c12 !important; /* couleur personnalisée pour le lien actif */
+  font-weight: bold !important;
+  text-decoration: underline !important;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}

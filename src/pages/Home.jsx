@@ -1,9 +1,14 @@
 import { Container, Row, Col, Button, ProgressBar } from 'react-bootstrap';
 import AboutPhoto from '../assets/image/john-doe-about.jpg'
+import { useState } from 'react';
+import GithubModal from '../components/GitHubModale.jsx';
 import '../styles/Home.css';
 
 
 function Home() {
+
+  const [modalShow, setModalShow] = useState(false);
+
   return (
     <div>
 
@@ -11,7 +16,8 @@ function Home() {
         <Container className="text-center text-white">
           <h1 className='hero-title'>Bonjour, je suis John Doe</h1>
           <h2 className='hero-subtitle'>Développeur Web full stack</h2>
-          <Button variant="light" className="mt-3">En savoir plus</Button>
+          <Button variant="danger" className="mt-3" onClick={() => setModalShow(true)}>En savoir plus</Button>
+          <GithubModal show={modalShow} handleClose={() => setModalShow(false)} />
         </Container>
       </header>
 

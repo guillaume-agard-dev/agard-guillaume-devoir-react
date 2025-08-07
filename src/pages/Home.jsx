@@ -13,7 +13,7 @@ function Home() {
     <div>
 
       <header className="hero-section d-flex align-items-center">
-        <Container className="text-center text-white">
+        <Container className="hero-content text-center text-white">
           <h1 className='hero-title'>Bonjour, je suis John Doe</h1>
           <h2 className='hero-subtitle'>Développeur Web full stack</h2>
           <Button variant="danger" className="mt-3" onClick={() => setModalShow(true)}>En savoir plus</Button>

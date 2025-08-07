@@ -1,11 +1,28 @@
 
 .hero-section {
   height: 80vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
   background-image: url('../assets/image/hero-bg.jpg');
   background-size: cover;
   background-position: center;
+  opacity: 0.8; /*  Appliqué uniquement à l’image */
+  z-index: 0;
+}
+
+.hero-section .hero-content {
   position: relative;
-  opacity: 0.8;
+  z-index: 1; /*  Le contenu passe au-dessus de l'image */
 }
 
 .hero-title {

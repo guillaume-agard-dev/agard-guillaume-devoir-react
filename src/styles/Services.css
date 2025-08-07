@@ -1,0 +1,25 @@
+
+.services-header {
+  height: 30vh;
+  background: url('../assets/image/banner.jpg') center/cover no-repeat;
+  position: relative;
+}
+
+.header-title-container {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+
+.header-underline {
+  width: 100%;
+  height: 4px;
+  background-color: #0d6efd;
+  margin: 10px auto 0;
+}
+
+.service-card:hover {
+  background-color: #efefef;
+  transform: scale(1.02);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}

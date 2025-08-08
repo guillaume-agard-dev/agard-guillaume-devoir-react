@@ -1,10 +1,16 @@
 import { Container, Accordion } from "react-bootstrap"
 import { Map, GeoAlt, Phone, EnvelopeAt, Globe } from "react-bootstrap-icons";
+import { Helmet } from "react-helmet";
 import '../styles/Mentions.css';
 
 
 function Mentionslegales() {
     return (
+        <>
+        <Helmet>
+        <meta name="robots" content="noindex, nofollow" />
+        </Helmet>
+
         <div className="mentions-legales-page">
             {/* Titre et introduction */}
             <Container className="my-5 text-center">
@@ -55,6 +61,7 @@ function Mentionslegales() {
             </Container>
 
         </div>
+        </>
     )
 }
 

@@ -1,0 +1,49 @@
+
+/* HEADER */
+.contact-header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.contact-header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.contact-underline {
+  width: 40%;
+  height: 4px;
+  background-color: #0d6efd;
+  margin: 10px auto 0;
+}
+
+/* CONTENU PRINCIPAL */
+.contact-box {
+  background: #fff;
+  border-radius: 10px;
+}
+
+.map-container iframe {
+  border-radius: 8px;
+}
+
+.icon {
+  margin-right: 2px;
+  font-size: 1.2rem;
+}
+
+.nom {
+    font-size: 1.3em;
+}
+
+.form-underline {
+  width: 100%;
+  height: 3px;
+  background-color: #0d6efd;
+  margin: 10px auto 30px;
+}
+
+.mailto-contact a {
+  color: black;  
+  text-decoration: none !important;
+}

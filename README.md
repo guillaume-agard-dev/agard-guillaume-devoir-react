@@ -1,12 +1,70 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Portfolio de John Doe
 
-Currently, two official plugins are available:
+Ce projet présente le portfolio de John Doe dans une application **responsive** réalisée avec **React.js** et **React-Bootstrap**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🖥️ Aperçu du projet
 
-## Expanding the ESLint configuration
+- Page d'accueil avec une présentation générale
+- Services proposés sous forme de cartes
+- Portfolio de projets réalisés
+- Formulaire de contact avec coordonnées et carte Google Maps
+- Mentions légales
+- Modale affichant des données GitHub dynamiques
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Technologies utilisées
+
+- [React.js](https://reactjs.org/)
+- [React-Bootstrap](https://react-bootstrap.github.io/)
+- [Bootstrap Icons](https://icons.getbootstrap.com/)
+- [React Router DOM](https://reactrouter.com/)
+- HTML5 / CSS3
+
+## ✅ Prérequis
+
+Avant de cloner le projet, assurez-vous d'avoir installé :
+
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
+
+## 🚀 Installation
+
+1. Clonez le projet :
+
+```bash
+git clone https://github.com/votre-utilisateur/nom-du-repo.git
+
+2. Accédez au dossier :
+
+```bash
+cd nom-du-repo
+```
+
+3. Installez les dépendances :
+
+```bash
+npm install
+```
+
+Ou avec yarn :
+
+```bash
+yarn install
+```
+
+## 🧪 Lancement du projet
+
+Lancez le projet en mode développement :
+
+```bash
+npm run dev
+```
+
+Ou avec yarn :
+
+```bash
+yarn dev
+```
+
+L'application sera accessible à l'adresse :
+👉 [http://localhost:5173](http://localhost:5173)

@@ -22,6 +22,7 @@ function Services() {
         <Row className="g-4">
           <Col md={4}>
             <Card className="service-card h-100 border-1">
+              
               <Card.Body className="text-center">
                 <div className="icon mb-3 fs-1 text-primary">🚀</div>
                 <Card.Title className="fs-4 fw-bold">UX Design</Card.Title>
@@ -30,10 +31,12 @@ function Services() {
                   L'objectif est de rendre l'expérience utilisateur la plus fluide et agréable possible.
                 </Card.Text>
               </Card.Body>
+
             </Card>
           </Col>
           <Col md={4}>
             <Card className="service-card h-100 border-1">
+
               <Card.Body className="text-center">
                 <div className="icon mb-3 fs-1 text-primary">💻</div>
                 <Card.Title className="fs-4 fw-bold">Développement web</Card.Title>
@@ -42,10 +45,12 @@ function Services() {
                   (HTML, CSS, JavaScript, PHP, etc.) et des frameworks (Bootstrap, React, Angular, etc.).
                 </Card.Text>
               </Card.Body>
+
             </Card>
           </Col>
           <Col md={4}>
             <Card className="service-card h-100 border-1">
+
               <Card.Body className="text-center">
                 <div className="icon mb-3 fs-1 text-primary">🔍</div>
                 <Card.Title className="fs-4 fw-bold">Référencement</Card.Title>
@@ -54,6 +59,7 @@ function Services() {
                   (Google, Bing, Yahoo, etc.). L'objectif est d'attirer un maximum de visiteurs qualifiés sur le site.
                 </Card.Text>
               </Card.Body>
+
             </Card>
           </Col>
         </Row>

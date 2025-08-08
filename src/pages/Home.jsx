@@ -15,7 +15,7 @@ const handleShow = () => setShowModal(true);
 
   return (
     <div>
-
+    
       <header className="hero-section d-flex align-items-center">
         <Container className="hero-content text-center text-white">
           <h1 className='hero-title'>Bonjour, je suis John Doe</h1>

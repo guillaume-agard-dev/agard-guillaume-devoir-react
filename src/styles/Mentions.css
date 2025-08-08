@@ -1,0 +1,13 @@
+
+.mentions-title-container {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+
+.mentions-underline {
+  width: 100%;
+  height: 4px;
+  background-color: #0d6efd;
+  margin: 10px auto 0;
+}
